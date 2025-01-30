@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Digital Presence</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon  -->
+    <link rel="" href="">
+
+    <!--  -->
+    <script src="https://kit.fontawesome.com/cb597b589a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+
+
+    <!-- header -->
+
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- <img src="" class="logo" alt="Kanika"> -->
+                <h1>Portfolio.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times fas" onClick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onClick="openmenu()"></i>
+            </nav>
+            <section class="home" id="home">
+
+                <div class="home-info">
+
+                    <div class="home-content ">
+                        <div class="header-text">
+
+                            <h1>Hi, I'm <span>Kanika Mehta</span> </h1>
+                            <h2>And I'm a <span style="--i:3" data-text="Web Developer"> Web Developer</span>
+                                <span style="--i:2"  data-text="Web Designer">Web Designer</span>
+                                <span style="--i:1"  data-text="Portrait Artist">Portrait Artist</span>
+                            </h2>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="my-img  ">
+                    <img src="assets/first.jpeg" alt="">
+                </div>
+            </section>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!---------------------------  About --------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1 my-img ">
+                    <img src="assets/third.jpeg" alt="hello">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Recent Post-Gradute, passionate about Technology with keen interest in MERN Stack and Blockchain
+                        Technology. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> UI/UX</span><br>Designing App Interfaces</li>
+                            <li><span>Full Stack Web Development</span><br> Done by using MERN STACK </li>
+                            <li><span>Portraits </span><br>Painting Face-Portrait of people with any Medium.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Intern at CodeClause</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022- 2024</span><br>Master's in Information Technology</li>
+                            <li><span>2019-2022</span><br>Bachelor's in Information Technology </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- ---------services------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <span class="animated-2"></span>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <h2>Web Design</h2>
+                    <p>I create visually appealing and user-friendly web designs that align with your brand's identity.
+                        My designs focus on aesthetics, usability, and responsiveness, ensuring an engaging experience
+                        for users across all devices.<br>
+                    <h2>!!CURRENTLY ORDERS ARE CLOSED!!</h2>
+                    </p>
+
+                </div>
+                <div>
+                    <span class="animated-2"></span>
+                    <!-- <i class="fa-solid fa-crop"></i> -->
+                    <h2>Web Developement </h2>
+                    <p>I specialize in building dynamic and high-performing websites using the MERN stack. From
+                        front-end interfaces to back-end functionality, I develop full-stack solutions tailored to your
+                        needs, security, and seamless user interaction.<br>
+                    <h2>!!CURRENTLY ORDERS ARE CLOSED!!</h2>
+                    </p>
+
+
+                </div>
+
+                <div>
+                    <span class="animated-2"></span>
+                    <!-- <i class="fa-solid fa-crop"></i> -->
+                    <h2>Portraits</h2>
+                    <p>I create handmade portraits using various traditional mediums like watercolors, pencil sketching,
+                        pen art, and more. Whether it's a detailed pencil portrait or a vibrant watercolor piece, I
+                        craft personalized artworks with precision and creativity. Perfect for gifts, home decor, or
+                        personal keepsakes!<br>
+                    <h2>!!CURRENTLY ORDERS ARE CLOSED!!</h2>
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----portfolio------- -->
+   
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+    
+         
+    
+            <!-- Technical Projects tab content -->
+            <p> Technical Pojects</p>
+            <div class="work-list" >
+              
+                <div class="work">
+                    <img src="assets/ig.jpeg" alt="work1">
+                    <div class="layer">
+                        <h3>Image Gallery App</h3>
+                        <p>Made with MERN Stack Technology. Will be deploying soon.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/files.jpeg" alt="work2">
+                    <div class="layer">
+                        <h3>File Sharing App</h3>
+                        <p>Made with MERN Stack Technology. Will be deploying soon.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/resume-builder.jpeg" alt="work3">
+                    <div class="layer">
+                        <h3>Interactive Resume Builder</h3>
+                        <p>Made with HTML, CSS, and JavaScript</p>
+                        <a href="https://kanika3546.github.io/CodeClauseInternship_Interactive_Resume_Builder/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+              
+
+            </div><br><br>
+              <p>Portrait Work</p>
+            <!-- Portraits tab content -->
+            <div class=" work-list" >
+                <div class="work">
+                    <img src="assets/a.jpeg" alt="work11">
+                </div>
+    
+                <div class="work ">
+                    <img src="assets/d.jpeg" alt="work21">
+                </div>
+                <div class="work">
+                    <img src="assets/b.jpeg" alt="work31">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====contact ====-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>kanikamehta065@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-square-alt"></i>8806674892</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/kanika.mehta_21"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kanika-mehta-065k"><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+
+                    <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Made by Kanika Mehta. </p>
+        </div>
+    </div>
+
+
+
+
+    <!-- typing animation -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <!-- scroll reveal js link -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main js -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+  
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxTiS91KbLSM6R5OHKwYNzkBRzmTh0rltyKFD8JUb_tUNJ8n8dyTvUCvMpxVor84wYX/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
